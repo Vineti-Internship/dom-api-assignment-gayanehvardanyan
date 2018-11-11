@@ -1,4 +1,4 @@
-<!--The code was slightly updated after a conversation with Hovhannes Karapetyan-- The initial code had the buttons defined in the html body >
+<!--The code was slightly updated after a conversation with Hovhannes Karapetyan-- The initial code had the buttons defined in the html body -->
 
 <!DOCTYPE html>
 <html>
@@ -11,7 +11,7 @@
     border-radius:50%;
     width:400px;
     align-content: center;
-}
+} 
 
 #smallCircle {
     background-color: pink;
