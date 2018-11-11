@@ -44,6 +44,11 @@ const btn2 = document.createElement("button");
 const name2 = document.createTextNode("Stop!");
 btn2.appendChild(name2);
 document.body.appendChild(btn2);
+	
+document.write( '<div id=\"parentCircle\"> \n' );
+document.write( '	<div id=\"smallCircle\"></div>\n' );
+document.write( '	<div id=\"circle\"></div>\n' );
+document.write( '</div>' );
 
 var alpha = 0;
 
@@ -75,10 +80,7 @@ btn1.addEventListener('click', startFunction);
 btn2.addEventListener('click', stopFunction);
 
 </script>
-<div id="parentCircle"> 
-	<div id="smallCircle"></div>
-	<div id="circle"></div>
-</div>
+
 </body>
 </html>
 
